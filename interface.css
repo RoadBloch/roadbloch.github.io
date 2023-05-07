@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #B2AC88;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+span{
+	background: #B2AC88;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.86s;
+}
+
+button:hover span{
+	width: 100%;
+}
+
+button:hover{
+	border:none;
+	color: #000;
+}
+
+.text
+{
+    text-align: center;
+    text-decoration-color:#B2AC88;
+}
