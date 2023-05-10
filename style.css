@@ -1,15 +1,14 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	font-family: sans-serif;
-	
+	font-family: Helvetica, 'Courier New';
 }
 
 .banner{
 	width: 100%;
 	height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('background.jpg');
-     	background-position:center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('background.png');
+    background-position:center;
 	background-size: cover;
     background-attachment: fixed;
 }
@@ -63,20 +62,34 @@
 	width: 100%;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-40%);
 	text-align: center;
 	color: #fff;
 }
 
-.content h1{
-	font-size: 70px;
-	margin-top: 80px;
+#info{
+	transform: translateY(200%);
 }
 
-.content p{
-	margin: 20px auto;
+#main h1{
+	font-size: 57px;
+	margin-top: 10px;;
+}
+
+#main p{
+	margin: 20px;
 	font-weight: 100;
 	line-height: 25px;
+}
+
+#docu h1{
+	font-size: 40px;
+	margin-top: -440px;
+}
+
+#docu p
+{
+	margin: 30px;
 }
 
 button{
