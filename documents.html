@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head> 
         <title>Documents</title>
         <link rel="stylesheet" href="style.css">
@@ -17,23 +18,28 @@
                 </ul>
             </div>
 
-            <div class="content">
+            <div class="content" id="docu">
                 <h1> Explore the following documents! </h1>
                 <p> You can find notes to different courses and topics! </p>
-                
-                <div>
-                    <button type="button" onclick="window.open
-                        ('https://drive.google.com/drive/folders/1VY1YruJb2y8Vdduy3b_ZXDVcGHe1DjoH?usp=sharing', '_blank')">
-                        <span></span>CLASSES (2022-23)</button>
-                    <button type="button" onclick="window.open
-                        ('https://drive.google.com/drive/folders/1d-fB3qrI7CA4IP7iL_XbYb8lE06LeGME?usp=share_link', '_blank')">
-                        <span></span>EXCITING TOPICS</button>
+                <div id="info">
+                    <div>
+                        <button type="button" onclick="window.open
+                            ('https://drive.google.com/drive/folders/1VY1YruJb2y8Vdduy3b_ZXDVcGHe1DjoH?usp=sharing', '_blank')">
+                            <span></span>CLASSES (2022-23)</button>
+                        <button type="button" onclick="window.open
+                            ('https://drive.google.com/drive/folders/1d-fB3qrI7CA4IP7iL_XbYb8lE06LeGME?usp=share_link', '_blank')">
+                            <span></span>EXCITING TOPICS</button>
+                    </div>
+                    <h5>Here are archived documents no longer in use.</h5>
+                    <div class="archived">
+                        <ul>
+                            <li><a href="proof-equations.8xp">AP Physics 1 Proofs For TI-84</a></li>
+                            <li><a href="ap-physics-1-equations-not-on-reference.8xp">AP Physics 1 Equations For TI-84</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <h5>Here are archived documents no longer in use.</h5>
+                
             </div>
         </div>		
-
-
-
     </body>
 </html>
