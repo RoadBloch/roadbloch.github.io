@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: Helvetica, 'Courier New';
+	text-size-adjust: initial;
 }
 
 .banner{
@@ -85,12 +86,12 @@
 
 #docu h1{
 	font-size: 40px;
-	margin-top: -380px;
+	margin-top: -250px;
 }
 
-#docu p
+#info
 {
-	margin: 30px;
+	margin: -300px;
 }
 
 button{
