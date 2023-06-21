@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: Helvetica, 'Courier New';
+	font-size: smaller;
 }
 
 .banner{
@@ -13,6 +14,13 @@
   	background-attachment: fixed;
   	background-size: cover;
 }
+.logo{
+	width: 120px;
+	cursor: pointer;
+	border-color:#371515;
+	border-radius: 100px;
+	border-width: 100px;
+}
 
 .navbar{
 	width: 85%
@@ -23,13 +31,7 @@
 	justify-content: space-between;
 }
 
-.logo{
-	width: 120px;
-	cursor: pointer;
-	border-color:#371515;
-	border-radius: 100px;
-	border-width: 100px;
-}
+
 
 #class{
 	color: black;
