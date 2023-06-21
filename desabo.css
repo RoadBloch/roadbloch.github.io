@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica, 'Courier New';
+	text-size-adjust: initial;
+}
+
+.banner{
+	height: 100vh;
+	width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('background.png');
+    background-position:center;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+.navbar{
+	width: 85%
+	margin auto;
+	padding: 10px;
+	display: flex;
+	align-items: center right;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 120px;
+	cursor: pointer;
+	border-color:#371515;
+	border-radius: 100px;
+	border-width: 100px;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width:0;
+	background: #B2AC88;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+	width: 100%;
+}
