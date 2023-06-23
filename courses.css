@@ -9,11 +9,12 @@
 	height: 100vh;
 	width: 100%;
     background-color:rgb(242, 97, 232);
-    background-position:center;
+    background-position: center;
 	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
 }
+
 .logo{
 	width: 120px;
 	cursor: pointer;
@@ -30,8 +31,6 @@
 	align-items: center right;
 	justify-content: space-between;
 }
-
-
 
 #class{
 	color: black;
